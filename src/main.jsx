@@ -10,7 +10,7 @@ import App from "./App";
 import ErrorPage from "./pages/ErrorPage";
 import HomePage from "./pages/PortfolioPage";
 import ProfilePage from "./pages/ContactPage";
-import AboutPage from "./pages/AboutPage";
+import AboutPage from "./pages/HomePage";
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
