@@ -5,7 +5,7 @@ export default function ProjectDetailed({ project }) {
   return (
     <div className="card">
       <CardHeader project={project} />
-      <CardBody description={project.description} date={project.date} />
+      <CardBody description={project.description} />
     </div>
   );
 }
