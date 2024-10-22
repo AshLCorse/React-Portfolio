@@ -6,13 +6,18 @@ import ProjectCard from "../components/UI/ProjectCard/ProjectCard";
 import ListItem from "../components/UI/ListItem";
 
 export default function PortfolioPage() {
-  // const [projects] = useState([]);
+  // Prior to the return statement, our homepage uses a few react hooks and fetchData function to query to a mock database and retrieve random user data
+  const [project] = useState([]);
 
-  // Iterate over each project to display in the portfolio
+  useEffect(() => {
+    project;
+  }, []);
+
+  // Iterate over each mock user to display their abridged profile data and a link to their page
   return (
     <div className="container pt-4">
       <ul className="list-group list-group">
-        {projects.map((project) => (
+        {project.map((project) => (
           <ListItem key={project.id}>
             <div project={project}>
               {/* Link elements are anchors under-the-hood, but they allow the routing behavior to be controlled by the client rather than the server */}
