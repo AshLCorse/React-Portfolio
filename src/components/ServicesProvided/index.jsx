@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 import WebsiteDesign from "./WebsiteDesign";
+import WebAppDesign from "./WebAppDesign";
+import EcommerceDesign from "./EcommerceDesign";
+import OtherPrograms from "./OtherPrograms";
 
 const ServicesProvided = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -22,6 +25,9 @@ const ServicesProvided = () => {
     <div>
       {/* Pass the scrollY prop to each child component */}
       <WebsiteDesign scrollY={scrollY} />
+      <WebAppDesign scrollY={scrollY} />
+      <EcommerceDesign scrollY={scrollY} />
+      <OtherPrograms scrollY={scrollY} />
     </div>
   );
 };

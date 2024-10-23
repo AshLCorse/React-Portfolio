@@ -24,12 +24,16 @@ const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: "profile/:id",
-        element: <ProfilePage />,
+        path: "/contact",
+        element: <ContactPage />,
       },
       {
-        path: "about",
-        element: <AboutPage />,
+        path: "/portfolio",
+        element: <PortfolioPage />,
+      },
+      {
+        path: "/resume",
+        element: <ResumePage />,
       },
     ],
   },

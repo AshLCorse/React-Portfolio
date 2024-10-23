@@ -4,6 +4,8 @@ import React, { useEffect, useState } from "react";
 import Services from "../components/Services";
 import About from "../components/About";
 import Values from "../components/Values";
+import Portfolio from "./PortfolioPage";
+import Contact from "./ContactPage";
 
 const HomePage = () => {
   const [scrollY, setScrollY] = useState(0);
