@@ -11,10 +11,7 @@ export default function ResumePage() {
                   <i className="bi-window m-auto text-primary" />
                 </div>
                 <h3>I'm Ashleigh Corse</h3>
-                <p className="lead mb-0">
-                  (720) 800-1560 | ashleigh.corse@gmail.com Address: 5967 S
-                  Gallup St, Littleton CO, 80120
-                </p>
+                <p className="lead mb-0">ashleigh.corse.dev@gmail.com</p>
               </div>
             </div>
             <div className="col-lg-4">
@@ -146,14 +143,12 @@ export default function ResumePage() {
                 <div className="features-icons-icon d-flex">
                   <i className="bi-terminal m-auto text-primary" />
                 </div>
-                <h3>Women and Children's Rights</h3>
+                <h3>Abuse and Domestic Violence</h3>
                 <p className="lead mb-0">
-                  I am also an advocate against abuse and cruelty. I believe
-                  that anyone who is a predator, or abuses those around them
-                  should face the consequences of their actions. This is not
-                  limited to women and children, but there are already laws in
-                  place to protect men from being abused so that is where I am
-                  focusing.
+                  I am also an advocate against abuse, domestic violence, and
+                  cruelty. I believe that anyone who is a predator, or abuses
+                  those around them should face the consequences of their
+                  actions.
                 </p>
               </div>
             </div>
@@ -165,9 +160,10 @@ export default function ResumePage() {
                 <h3>Disbility Rights</h3>
                 <p className="lead mb-0">
                   I belive that people who are disabled should get to marry
-                  without losing their financial support from the services in
-                  place to help them. I also believe that disabled people
-                  deserve just as much opportunity and happines as abled people.
+                  without losing their financial or medical support from the
+                  services in place to help them. I also believe that disabled
+                  people deserve just as much opportunity, peace, and joy as
+                  abled people.
                 </p>
               </div>
             </div>
