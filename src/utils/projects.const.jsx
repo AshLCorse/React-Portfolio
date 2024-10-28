@@ -1,19 +1,20 @@
 import { useState } from "react";
 //import screenshots from assets folder
 
-import ProfPortfolioScr from "./images/Challenge-2-Professional-Portfolio-Screenshot.pdf";
-import EmplPayrTrckScr from "./images/Challenge-3-Employee-Payroll-Tracker-Screenshot.pdf";
-import PersBlgScr from "./images/Challenge-4-Personal-Blog-Screenshot.pdf";
-import TskBrdScr from "./images/Challenge-5-Task-Board-Screenshot.pdf";
+import ProfPortfolioScr from "./images/Challenge-2-Professional-Portfolio-Screenshot.png";
+import EmplPayrTrckScr from "./images/Challenge-3-Employee-Payroll-Tracker-Screenshot.png";
+import PersBlgScr from "./images/Challenge-4-Personal-Blog-Screenshot.png";
+import TskBrdScr from "./images/Challenge-5-Task-Board-Screenshot.png";
 import ProREADMEGenScr from "./images/Challenge-9-Pro-README-Generator-Screenshot.png";
 import SVGGenScr from "./images/Challenge-10-SVG-Generator-Screenshot.png";
-import NtTkrScr from "./images/Challenge-11-Note-Taker-Screenshot.pdf";
+import NtTkrScr from "./images/Challenge-11-Note-Taker-Screenshot.png";
 import EmpTrckScr from "./images/Challenge-12-Employee-Tracker-Screenshot.png";
 import EcommerceScr from "./images/Challenge-13-Ecommerce-Back-End-Screenshot.png";
-import TechBlgScr from "./images/Challenge-14-Tech-Blog-Screenshot.pdf";
-import RegexTutScr from "./images/Challenge-17-Regex-Tutorial-Screenshot.pdf";
+import TechBlgScr from "./images/Challenge-14-Tech-Blog-Screenshot.png";
+import RegexTutScr from "./images/Challenge-17-Regex-Tutorial-Screenshot.png";
 import SocNetAPIScr from "./images/Challenge-18-Social-Network-API-Screenshot.png";
-import TextEditorScr from "./images/Challenge-19-Text-Editor-Screenshot.pdf";
+import TextEditorScr from "./images/Challenge-19-Text-Editor-Screenshot.png";
+import SpiritSeedsScr from "./images/Spirit-Seeds-screenshot.png";
 
 //define each project
 const project2 = {
@@ -230,28 +231,28 @@ const project21 = {
     "AWS",
   ],
   githubLink: "https://github.com/ashleighcorse/React-Employee-Tracker",
-  screenshot: EmplPayrTrckScr,
+  screenshot: SpiritSeedsScr,
 };
 
 //add more projects here
 
 //link screenshots in projects array
 const projects = [
-  project2,
-  project3,
-  project4,
-  project5,
-  project9,
-  project10,
-  project11,
-  project12,
-  project13,
-  project14,
-  project17,
-  project18,
-  project19,
+  project21, //add more projects here to add to the portfolio!
   project20,
-  project21, //add your projects here to add more to the portfolio!
+  project19,
+  project18,
+  project17,
+  project14,
+  project13,
+  project12,
+  project11,
+  project10,
+  project9,
+  project5,
+  project4,
+  project3,
+  project2,
 ];
 
 export default projects;
