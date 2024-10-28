@@ -3,7 +3,7 @@ import { Container, Title, Text, Button } from "@mantine/core";
 import classes from "@/assets/css/HeroImageRight.module.css";
 import { Link } from "react-router-dom";
 
-const WebsiteDesign = () => {
+const EcommerceDesign = () => {
   return (
     <div
       className={classes.root}
@@ -30,14 +30,14 @@ const WebsiteDesign = () => {
           >
             <Title className={classes.title}>
               <span className={classes.gradientText}>
-                Static Website Design
+                E-Commerce Web App Design
               </span>
             </Title>
 
             <Text className={classes.description} mt={30}>
-              A static website is a website that does not dynamically generate
-              content based on user input. This portfolio is an example of a
-              static website.
+              A dynamic E-commerce web app is a website that dynamically
+              generates content based on user input. A shopping site like Amazon
+              or Temu is an example of a dynamic E-commerce web app.
             </Text>
             <Link to="/contact">
               <Button
@@ -56,4 +56,4 @@ const WebsiteDesign = () => {
   );
 };
 
-export default WebsiteDesign;
+export default EcommerceDesign;

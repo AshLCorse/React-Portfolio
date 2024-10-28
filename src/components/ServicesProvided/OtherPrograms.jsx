@@ -3,7 +3,7 @@ import { Container, Title, Text, Button } from "@mantine/core";
 import classes from "@/assets/css/HeroImageRight.module.css";
 import { Link } from "react-router-dom";
 
-const WebsiteDesign = () => {
+const OtherPrograms = () => {
   return (
     <div
       className={classes.root}
@@ -30,14 +30,16 @@ const WebsiteDesign = () => {
           >
             <Title className={classes.title}>
               <span className={classes.gradientText}>
-                Static Website Design
+                Other Programming Solutions
               </span>
             </Title>
 
             <Text className={classes.description} mt={30}>
-              A static website is a website that does not dynamically generate
-              content based on user input. This portfolio is an example of a
-              static website.
+              I also offer other options, such as Website Maintinence, Back End
+              Development, Content management and other Database design and
+              management programs for personal and business use. A Database
+              Management Command Line Interface example is in my portfolio under
+              "Employee Tracker".
             </Text>
             <Link to="/contact">
               <Button
@@ -56,4 +58,4 @@ const WebsiteDesign = () => {
   );
 };
 
-export default WebsiteDesign;
+export default OtherPrograms;

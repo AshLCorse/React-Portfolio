@@ -1,9 +1,9 @@
 import React from "react";
-import OurValues from "../components/OurValues";
+import MyValues from "../components/MyValues";
 const ValuesPage = () => {
   return (
     <div>
-      <OurValues />
+      <MyValues />
     </div>
   );
 };

@@ -1,11 +1,11 @@
 import CardDependencies from "./CardDependencies";
 import CardDescription from "./CardDescription";
 
-export default function CardBody({ description, dependencies }) {
+export default function CardBody({ project }) {
   return (
     <div className="card-body">
-      <CardDescription {...description} />
-      <CardDependencies {...dependencies} />
+      <CardDescription project={project} />
+      <CardDependencies project={project} />
     </div>
   );
 }
