@@ -6,15 +6,15 @@ const Bio = () => {
   return (
     <div
       className={classes.root}
-      style={{
-        marginTop: "30vh",
-        backgroundImage: `url('../assets/images/Bio.JPG')`,
-        backgroundSize: "cover", // Ensures the image covers the whole div
-        backgroundPosition: "center", // Center the image
-        backgroundRepeat: "no-repeat", // Prevent repeating
-        position: "relative", // To contain absolutely positioned elements
-        height: "100vh", // Ensure the image covers the whole div
-      }}
+      // style={{
+      //   marginTop: "30vh",
+      //   backgroundImage: `url('../assets/images/Bio.JPG')`,
+      //   backgroundSize: "cover", // Ensures the image covers the whole div
+      //   backgroundPosition: "center", // Center the image
+      //   backgroundRepeat: "no-repeat", // Prevent repeating
+      //   position: "relative", // To contain absolutely positioned elements
+      //   height: "100vh", // Ensure the image covers the whole div
+      // }}
     >
       <Container size="lg">
         <div className={classes.inner}>

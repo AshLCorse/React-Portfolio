@@ -8,6 +8,11 @@ export default defineConfig({
     port: 3000,
     open: true,
   },
+  resolve: {
+    alias: {
+      "@": "/src", // Alias @ to /src
+    },
+  },
 });
 
 //TODO: add Mantine
