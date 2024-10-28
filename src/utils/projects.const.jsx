@@ -21,7 +21,7 @@ const project2 = {
   title: "Professional Portfolio",
   description:
     "This is my first professional portfolio showcasing my projects and skills.",
-  dependencies: "None",
+  dependencies: ["None"],
   technologies: ["JavaScript", "HTML", "CSS", "Git", "VSCode"],
   githubLink: "https://github.com/ashleighcorse/Portfolio",
   screenshot: ProfPortfolioScr,
@@ -32,7 +32,7 @@ const project3 = {
   title: "Employee Payroll Tracker",
   description:
     "This is a simple employee payroll tracker application using React.",
-  dependencies: "None",
+  dependencies: ["None"],
   technologies: ["JavaScript", "HTML", "CSS", "Git", "VSCode"],
   githubLink: "https://github.com/ashleighcorse/Employee-Payroll-Tracker",
   screenshot: EmplPayrTrckScr,
@@ -42,7 +42,7 @@ const project4 = {
   id: 4,
   title: "Personal Blog",
   description: "This is a simple personal blog application using Web APIs.",
-  dependencies: "None",
+  dependencies: ["None"],
   technologies: ["JavaScript", "HTML", "CSS", "Git", "VSCode", "Web APIs"],
   githubLink: "https://github.com/ashleighcorse/Personal-Blog",
   screenshot: PersBlgScr,
@@ -53,7 +53,7 @@ const project5 = {
   title: "Task Board",
   description:
     "This is a simple task board application using Third Party APIs.",
-  dependencies: "None",
+  dependencies: ["None"],
   technologies: ["JavaScript", "HTML", "CSS", "Git", "VSCode", "Day.js"],
   githubLink: "https://github.com/ashleighcorse/Task-Board",
   screenshot: TskBrdScr,
@@ -156,7 +156,7 @@ const project17 = {
   title: "Regex Tutorial",
   description:
     "This is a simple regex tutorial gist on Github using JavaScript.",
-  dependencies: "None",
+  dependencies: ["None"],
   technologies: ["JavaScript", "Git", "VSCode", "Computer Science"],
   githubLink:
     "https://gist.github.com/AshLCorse/8c71c2b1a9781b53fe0dbe2671d0b69f",
@@ -198,11 +198,42 @@ const project20 = {
   title: "REACT Portfolio",
   description:
     "This is my professional portfolio showcasing my projects and skills.",
-  dependencies: ["React", "Bootstrap"],
+  dependencies: ["React", "Bootstrap", "Mantine", "Vite", "Eslint"],
   technologies: ["JavaScript", "React", "Bootstrap"],
   githubLink: "https://github.com/ashleighcorse/React-Portfolio",
   screenshot: ProfPortfolioScr,
 };
+
+const project21 = {
+  id: 21,
+  title: "Spirit Seeds",
+  description: "Bootcamp Final Project, a yoga website for my teammate's wife.",
+  dependencies: [
+    "node.js",
+    "express.js",
+    "React",
+    "Bootstrap",
+    "Mantine",
+    "Stripe",
+    "Vite",
+    "Eslint",
+    "Axios",
+    "JWT",
+  ],
+  technologies: [
+    "React",
+    "State",
+    "MERN Stack",
+    "MongoDB",
+    "Render",
+    "GraphQL",
+    "AWS",
+  ],
+  githubLink: "https://github.com/ashleighcorse/React-Employee-Tracker",
+  screenshot: EmplPayrTrckScr,
+};
+
+//add more projects here
 
 //link screenshots in projects array
 const projects = [
@@ -219,6 +250,8 @@ const projects = [
   project17,
   project18,
   project19,
+  project20,
+  project21, //add your projects here to add more to the portfolio!
 ];
 
 export default projects;
