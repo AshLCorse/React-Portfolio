@@ -4,7 +4,7 @@ import Resume from "../utils/images/Tech-Resume-9_10_24.png";
 export default function ResumePage() {
   return (
     <div>
-      <h2>Resume</h2>
+      <h2>My Resume</h2>
       <img src={Resume} alt="Ashleigh Corse's Resume" />
       <ul>
         <li>

@@ -72,13 +72,13 @@ const MyValues = () => {
             <h2>Innovation</h2>
             <Text className={classes.description} mt={30}>
               I am always looking for new ideas and technologies to expand my
-              knowlege, improve the quality of my work and meet your business
+              knowledge, improve the quality of my work and meet your business
               needs.
             </Text>
             <h2>Reliability</h2>
             <Text className={classes.description} mt={30}>
               I am committed to providing reliable and secure services to my
-              clients, ensuring that your website is accessible and safe for
+              clients, ensuring that your website is accessible and reliable for
               everyone.
             </Text>
             <h2>Passion</h2>

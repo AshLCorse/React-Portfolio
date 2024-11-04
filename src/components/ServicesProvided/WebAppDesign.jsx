@@ -37,7 +37,9 @@ const WebAppDesign = () => {
             <Text className={classes.description} mt={30}>
               A dynamic web app is a website that dynamically generates content
               based on user input. A scheduling site like Google Calendar is an
-              example of a dynamic web app.
+              example of a dynamic web app. Another example of a dynamic web app
+              is a social media site, like blogs, chat forums, Facebook,
+              Instagram and TikTok.
             </Text>
             <Link to="/contact">
               <Button

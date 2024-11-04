@@ -17,50 +17,59 @@ import TextEditorScr from "./images/Challenge-19-Text-Editor-Screenshot.png";
 import SpiritSeedsScr from "./images/Spirit-Seeds-screenshot.png";
 
 //define each project
-const project2 = {
+const challenge2 = {
   id: 2,
   title: "Professional Portfolio",
   description:
-    "This is my first professional portfolio showcasing my projects and skills.",
+    "This is my first professional portfolio showcasing my projects and skills using basic and advanced CSS.",
   dependencies: ["None"],
   technologies: ["JavaScript", "HTML", "CSS", "Git", "VSCode"],
   githubLink: "https://github.com/ashleighcorse/Portfolio",
   screenshot: ProfPortfolioScr,
 };
 
-const project3 = {
+const challenge3 = {
   id: 3,
   title: "Employee Payroll Tracker",
   description:
-    "This is a simple employee payroll tracker application using React.",
+    "This is a simple employee payroll tracker application using basic JavaScript.",
   dependencies: ["None"],
   technologies: ["JavaScript", "HTML", "CSS", "Git", "VSCode"],
   githubLink: "https://github.com/ashleighcorse/Employee-Payroll-Tracker",
   screenshot: EmplPayrTrckScr,
 };
 
-const project4 = {
+const challenge4 = {
   id: 4,
   title: "Personal Blog",
-  description: "This is a simple personal blog application using Web APIs.",
+  description:
+    "This is a simple personal blog application using Web APIs and my first foray into the Document Object Model.",
   dependencies: ["None"],
   technologies: ["JavaScript", "HTML", "CSS", "Git", "VSCode", "Web APIs"],
   githubLink: "https://github.com/ashleighcorse/Personal-Blog",
   screenshot: PersBlgScr,
 };
 
-const project5 = {
+const challenge5 = {
   id: 5,
   title: "Task Board",
   description:
-    "This is a simple task board application using Third Party APIs.",
+    "This is a simple task board application using Third Party APIs and my first use of JQuery and Day.js.",
   dependencies: ["None"],
-  technologies: ["JavaScript", "HTML", "CSS", "Git", "VSCode", "Day.js"],
+  technologies: [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Git",
+    "VSCode",
+    "JQuery",
+    "Day.js",
+  ],
   githubLink: "https://github.com/ashleighcorse/Task-Board",
   screenshot: TskBrdScr,
 };
 
-const project9 = {
+const challenge9 = {
   id: 9,
   title: "Pro README Generator",
   description:
@@ -71,7 +80,7 @@ const project9 = {
   screenshot: ProREADMEGenScr,
 };
 
-const project10 = {
+const challenge10 = {
   id: 10,
   title: "SVG Generator",
   description:
@@ -82,7 +91,7 @@ const project10 = {
   screenshot: SVGGenScr,
 };
 
-const project11 = {
+const challenge11 = {
   id: 11,
   title: "Note Taker",
   description: "This is a simple note-taking application using Local Storage.",
@@ -92,7 +101,7 @@ const project11 = {
   screenshot: NtTkrScr,
 };
 
-const project12 = {
+const challenge12 = {
   id: 12,
   title: "Employee Tracker",
   description:
@@ -110,7 +119,7 @@ const project12 = {
   screenshot: EmpTrckScr,
 };
 
-const project13 = {
+const challenge13 = {
   id: 13,
   title: "Ecommerce Back-End",
   description:
@@ -128,7 +137,7 @@ const project13 = {
   screenshot: EcommerceScr,
 };
 
-const project14 = {
+const challenge14 = {
   id: 14,
   title: "Tech Blog",
   description:
@@ -152,7 +161,7 @@ const project14 = {
   screenshot: TechBlgScr,
 };
 
-const project17 = {
+const challenge17 = {
   id: 17,
   title: "Regex Tutorial",
   description:
@@ -164,7 +173,7 @@ const project17 = {
   screenshot: RegexTutScr,
 };
 
-const project18 = {
+const challenge18 = {
   id: 18,
   title: "Social Network API",
   description:
@@ -175,7 +184,7 @@ const project18 = {
   screenshot: SocNetAPIScr,
 };
 
-const project19 = {
+const challenge19 = {
   id: 19,
   title: "Text Editor",
   description:
@@ -194,7 +203,7 @@ const project19 = {
   screenshot: TextEditorScr,
 };
 
-const project20 = {
+const challenge20 = {
   id: 20,
   title: "REACT Portfolio",
   description:
@@ -204,9 +213,46 @@ const project20 = {
   githubLink: "https://github.com/ashleighcorse/React-Portfolio",
   screenshot: ProfPortfolioScr,
 };
-
-const project21 = {
+const challenge21 = {
   id: 21,
+  title: "Book Search Engine",
+  description: "This is my book search Engine using the MERN stack.",
+  dependencies: ["React", "Bootstrap", "Mantine", "Vite", "Eslint"],
+  technologies: ["JavaScript", "React", "Bootstrap"],
+  githubLink: "https://github.com/ashleighcorse/React-Portfolio",
+  screenshot: ProfPortfolioScr,
+};
+const project1 = {
+  id: 7,
+  title: "Charizard vs Chimpanzee",
+  description:
+    "This is my first group project for the DU edX bootcamp. My team and I decided to build a stat comparison site to compare Pokemon with real world animals. We used a third party Pokemon API, and a third party animal API to fetch our data, and rendered it on the page.",
+  dependencies: ["Bulma"],
+  technologies: ["JavaScript", "Third Party APIs", "Modals", "Local Storage"],
+  githubLink: "https://github.com/ashleighcorse/React-Portfolio",
+  screenshot: ProfPortfolioScr,
+};
+const project2 = {
+  id: 7,
+  title: "Hobbits on Holiday",
+  description:
+    "This is my second group project for the DU edX bootcamp. My team and I decided to build a D&D and Lord of the Rings based game where players can create a Hobbit character, place their character token in Middle Earth on a map, encounter monsters, and fight by rolling a d20. We used a third party D&D API, and a Map of Middle Earth using Leaflet. I was able to create a d20 that rolls a random number between 0 and 20, and assist with rendering the D&D Monsters on the game's page. I also assisted with debugging the map and Hobbit character pages.",
+  dependencies: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Third Party APIs",
+    "Bulma",
+    "Modals",
+    "Local Storage",
+  ],
+  technologies: ["JavaScript", "React", "Bootstrap"],
+  githubLink: "https://github.com/ashleighcorse/React-Portfolio",
+  screenshot: ProfPortfolioScr,
+};
+
+const project3 = {
+  id: 23,
   title: "Spirit Seeds",
   description: "Bootcamp Final Project, a yoga website for my teammate's wife.",
   dependencies: [
@@ -238,21 +284,23 @@ const project21 = {
 
 //link screenshots in projects array
 const projects = [
-  project21, //add more projects here to add to the portfolio!
-  project20,
-  project19,
-  project18,
-  project17,
-  project14,
-  project13,
-  project12,
-  project11,
-  project10,
-  project9,
-  project5,
-  project4,
-  project3,
+  challenge21, //add more projects here to add to the portfolio!
+  challenge20,
+  challenge19,
+  challenge18,
+  challenge17,
   project2,
+  challenge14,
+  challenge13,
+  challenge12,
+  challenge11,
+  challenge10,
+  challenge9,
+  project1,
+  challenge5,
+  challenge4,
+  challenge3,
+  challenge2,
 ];
 
 export default projects;
