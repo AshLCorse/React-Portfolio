@@ -35,7 +35,7 @@ const OtherPrograms = () => {
             </Title>
 
             <Text className={classes.description} mt={30}>
-              I also offer other options, such as Website Maintinence, Back End
+              I also offer other options, such as Website Maintenance, Back End
               Development, Content management and other Database design and
               management programs for personal and business use. A Database
               Management Command Line Interface example is in my portfolio under

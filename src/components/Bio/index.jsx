@@ -25,24 +25,25 @@ const Bio = () => {
             </Title>
 
             <Text className={classes.description} mt={30}>
+              {" "}
               Ashleigh is a creative, who expresses life as an art form, through
               exploring nature playfully and practice in martial arts, puzzles,
               music, and meditation. She seeks to create innovative solutions
               for modern problems, and inspire a space where people feel safe to
               be authentic. Her journey began with robotics; she began coding in
-              college finding personal growth and comuunity. She continued on to
+              college finding personal growth and community. She continued on to
               trade school and fell in love with Web Apps, in part due to the
               diverse problem solving involved that inspires her. Ashleigh
               studied at an online bootcamp through Denver University for the
               past 6 months, developing her skills and practicing as a
               programmer and developer. The skills she learned here are
               showcased on her portfolio. Her path led to further study in
-              Javascript, including frameworks such as Next.js, Vue.js,
-              Svelte.js, Nuxt.js, and Angular. She\’s done multiple training
+              JavaScript, including frameworks such as Next.js, Vue.js,
+              Svelte.js, Nuxt.js, and Angular. She has done multiple training
               sessions through Udemy, Khan Academy, and LinkedIn Learning. She
               now offers custom websites and web apps, in addition to other
               programming solutions. She values creating a sense of community in
-              practice can help us all to find our gifts and grow into our
+              practice can help us all to find our gifts and grow into the
               fullest expression of our authentic selves. By offering free
               estimates and consultations, Ashleigh hopes to provide each
               customer with the best solutions for them.
