@@ -39,7 +39,7 @@ const Bio = () => {
               programmer and developer. The skills she learned here are
               showcased on her portfolio. Her path led to further study in
               JavaScript, including frameworks such as Next.js, Vue.js,
-              Svelte.js, Nuxt.js, and Angular. She's done multiple training
+              Svelte.js, Nuxt.js, and Angular. She has done multiple training
               sessions through Udemy, Khan Academy, and LinkedIn Learning. She
               now offers custom websites and web apps, in addition to other
               programming solutions. She values creating a sense of community in
